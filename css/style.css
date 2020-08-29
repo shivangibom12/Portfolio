@@ -80,7 +80,10 @@ i {
 .navigation-bar a:hover {
 	opacity: 0.6;
 }
-
+.affix {
+    top: 20px;
+    z-index: 9999 !important;
+  }
 /*++++++++++++++Media query+++++++++++++++++++++++*/
 
 @media only screen and (max-width: 1173px) {
